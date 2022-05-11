@@ -29,9 +29,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{01C2304E-498
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.MiniAPI.MicroService.API.Employee", "Presentation\API\DotNet.MiniProject.MicroService.API.Employee\DotNet.MiniAPI.MicroService.API.Employee.csproj", "{CEDCAEA8-6575-4038-810E-3360006FDE01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.MiniAPI.MicroService.Framework.Logger", "Framework\DotNet.MiniAPI.MicroService.Framework.Exception\DotNet.MiniAPI.MicroService.Framework.Logger.csproj", "{1079EA35-7800-4831-B658-93D11311B7E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.MiniAPI.MicroService.Framework.Logger", "Framework\DotNet.MiniAPI.MicroService.Framework.Exception\DotNet.MiniAPI.MicroService.Framework.Logger.csproj", "{1079EA35-7800-4831-B658-93D11311B7E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.MiniAPI.MicroService.Framework.HealthCheck", "Framework\DotNet.MiniAPI.MicroService.Framework.HealthCheck\DotNet.MiniAPI.MicroService.Framework.HealthCheck.csproj", "{44E16B0E-1839-497F-BCE4-0BF80DA98D88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.MiniAPI.MicroService.Framework.HealthCheck", "Framework\DotNet.MiniAPI.MicroService.Framework.HealthCheck\DotNet.MiniAPI.MicroService.Framework.HealthCheck.csproj", "{44E16B0E-1839-497F-BCE4-0BF80DA98D88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{8DC41B3A-655C-4293-99AD-C67D8B100FB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.MiniAPI.MicroService.API.Gateway", "Presentation\Gateway\DotNet.MiniAPI.MicroService.API.Gateway\DotNet.MiniAPI.MicroService.API.Gateway.csproj", "{F39131EB-6022-4060-99CD-A0128B9B10AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +75,10 @@ Global
 		{44E16B0E-1839-497F-BCE4-0BF80DA98D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44E16B0E-1839-497F-BCE4-0BF80DA98D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44E16B0E-1839-497F-BCE4-0BF80DA98D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39131EB-6022-4060-99CD-A0128B9B10AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39131EB-6022-4060-99CD-A0128B9B10AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39131EB-6022-4060-99CD-A0128B9B10AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39131EB-6022-4060-99CD-A0128B9B10AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +93,8 @@ Global
 		{CEDCAEA8-6575-4038-810E-3360006FDE01} = {01C2304E-498C-4AE3-AB98-330D1A5AEAD5}
 		{1079EA35-7800-4831-B658-93D11311B7E8} = {253027FB-0B32-4D0D-9595-509F0A1F88C3}
 		{44E16B0E-1839-497F-BCE4-0BF80DA98D88} = {253027FB-0B32-4D0D-9595-509F0A1F88C3}
+		{8DC41B3A-655C-4293-99AD-C67D8B100FB5} = {E3ED1AC7-E35C-4A91-967D-C0C9A1FD5244}
+		{F39131EB-6022-4060-99CD-A0128B9B10AF} = {8DC41B3A-655C-4293-99AD-C67D8B100FB5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE71202E-E10A-4558-A90D-3FE91800D640}
